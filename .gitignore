@@ -1,1 +1,5 @@
 node_modules
+avator/*.png
+avator/*.jpg
+sound/*.wav
+nodemon.json
