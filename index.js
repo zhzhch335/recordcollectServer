@@ -8,6 +8,7 @@ const multer = require('multer')
 
 const app = express();
 
+app.use('/sound', express.static('sound'));
 app.use(bodyParser.urlencoded({
     extended: false
 }));
